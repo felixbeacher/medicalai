@@ -24,4 +24,8 @@ snapshot=re.search(r'<script\b(?=[^>]*\bid="bcg-evidence-data")[^>]*>(.*?)</scri
 assert json.loads(snapshot)==data,'Embedded snapshot differs from canonical JSON'
 assert 'const BCG_TEST=' not in html and '100 vs 40' not in html
 assert 'input[type="range"]' not in html and 'id="severity-weight"' not in html
-print('PASS: 7 evidence records, all provenance links, interval arithmetic, null gaps and offline snapshot.')
+m=data['research_model'];by_id={e['id']:e for e in data['estimates']};prev=by_id[m['prevalence_record_id']];weight=by_id[m['severity_record_id']];expected=prev['value']/prev['denominator']*weight['value']
+assert math.isclose(m['value_fraction'],expected) and math.isclose(m['value_per_100'],expected*100)
+assert m['uncertainty_interval'] is None and m['assumptions'] and m['status']=='exploratory_not_clinically_validated'
+assert data['schema_version']==2
+print(f'PASS: {len(data["estimates"])} records, provenance, bounds, derived arithmetic, explicit model assumptions and offline snapshot.')
