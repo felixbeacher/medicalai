@@ -282,7 +282,8 @@
     "measure": "Estimated annual TB incidence per 100,000 population",
     "year": 2024,
     "image_url": "https://cdn.who.int/media/images/default-source/products/global-reports/tb-report/2025/fig_1-1-4-1.tmb-1920v.png?sfvrsn=d129cc8d_3",
-    "alt": "WHO world map showing estimated TB incidence rates by country in 2024, in annual new and recurrent TB cases per 100,000 people. Higher rates are concentrated in parts of Africa and Asia. The image includes its numerical colour legend and missing-data categories.",
-    "limitations": "Country-level annual incidence, not prevalence, an individual prediction, or the website’s custom regional averages. Map boundaries and categories are those of the original WHO figure."
+    "alt": "World map of estimated TB incidence by country in 2024, in annual new and recurrent cases per 100,000 people. Lower incidence is shown in green, higher incidence in red, and missing data in grey. Original WHO numerical legend categories are retained.",
+    "limitations": "Country-level annual incidence, not prevalence, an individual prediction, or the website’s custom regional averages. Map boundaries and categories are those of the original WHO figure.",
+    "display_palette": "Frontend colour adaptation: green = lower incidence, red = higher incidence; neutral text, boundaries and missing-data grey retained. Underlying source image, country values and numerical categories unchanged."
   }
 }
