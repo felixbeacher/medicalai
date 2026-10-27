@@ -107,6 +107,30 @@
       "locator": "Abstract, Findings; 19 studies, 1,636 children",
       "design": "Systematic review and meta-analysis of treated childhood TB meningitis",
       "accessed": "2026-10-27"
+    },
+    {
+      "id": "cdc-common-cold",
+      "title": "CDC — About common cold",
+      "url": "https://www.cdc.gov/common-cold/about/index.html",
+      "published": "2026-02-19",
+      "accessed": "2026-10-27",
+      "locator": "Overview: US adult episode frequency; complications."
+    },
+    {
+      "id": "who-ebola",
+      "title": "WHO — Ebola disease",
+      "url": "https://www.who.int/en/health-topics/ebola/ebola",
+      "published": null,
+      "accessed": "2026-10-27",
+      "locator": "Overview: historical case-fatality range and average."
+    },
+    {
+      "id": "ema-benefit-risk",
+      "title": "EMA — Benefit–risk tools and processes",
+      "url": "https://www.ema.europa.eu/en/documents/report/benefit-risk-methodology-project-work-package-4-report-benefit-risk-tools-and-processes_en.pdf",
+      "published": "2012",
+      "accessed": "2026-10-27",
+      "locator": "Sections 2.1–2.2: PrOACT-URL framework and Effects Table."
     }
   ],
   "estimates": [
@@ -381,6 +405,60 @@
       "comparator": null,
       "design": "Systematic review and meta-analysis",
       "limitations": "Conditional on survival; must not be added to the death percentage or applied to all TB. Not an input to the burden index."
+    },
+    {
+      "id": "global-tb-adult-men-2024",
+      "value": 5800000,
+      "interval": {
+        "low": 4200000,
+        "high": 7400000,
+        "type": "source_reported_uncertainty_interval"
+      },
+      "measure": "estimated_number_new_and_recurrent_tb_cases",
+      "population": "Men aged 15 years and older, worldwide",
+      "outcome": "New or recurrent TB disease episodes",
+      "time_period": "2024",
+      "design": "WHO modelled global burden estimates",
+      "source_ids": [
+        "who-tb-2025"
+      ],
+      "limitations": "Counts, not individual risk or vaccine effects; group sizes and exposure differ. Not a matched estimate for the entered age or sex."
+    },
+    {
+      "id": "global-tb-adult-women-2024",
+      "value": 3700000,
+      "interval": {
+        "low": 2700000,
+        "high": 4700000,
+        "type": "source_reported_uncertainty_interval"
+      },
+      "measure": "estimated_number_new_and_recurrent_tb_cases",
+      "population": "Women aged 15 years and older, worldwide",
+      "outcome": "New or recurrent TB disease episodes",
+      "time_period": "2024",
+      "design": "WHO modelled global burden estimates",
+      "source_ids": [
+        "who-tb-2025"
+      ],
+      "limitations": "Counts, not individual risk or vaccine effects; group sizes and exposure differ. Not a matched estimate for the entered age or sex."
+    },
+    {
+      "id": "global-tb-children-2024",
+      "value": 1200000,
+      "interval": {
+        "low": 870000,
+        "high": 1500000,
+        "type": "source_reported_uncertainty_interval"
+      },
+      "measure": "estimated_number_new_and_recurrent_tb_cases",
+      "population": "Children aged 0–14 years, worldwide",
+      "outcome": "New or recurrent TB disease episodes",
+      "time_period": "2024",
+      "design": "WHO modelled global burden estimates",
+      "source_ids": [
+        "who-tb-2025"
+      ],
+      "limitations": "Counts, not individual risk or vaccine effects; group sizes and exposure differ. Not a matched estimate for the entered age or sex."
     }
   ],
   "missing_data": {
@@ -437,5 +515,39 @@
     "uncertainty_interval": null,
     "uncertainty_note": "Input prevalence uncertainty is shown separately. No joint model uncertainty interval has been estimated; the point output is not precise clinical evidence."
   },
-  "model_scope_note": "The research_model is an illustrative morbidity proxy, not complete disease risk. Clinical/personal outputs in missing_data remain unavailable."
+  "model_scope_note": "The research_model is an illustrative morbidity proxy, not complete disease risk. Clinical/personal outputs in missing_data remain unavailable.",
+  "contextual_comparisons": {
+    "scope": "Reference points, not a ranking on the custom morbidity index",
+    "common_cold": {
+      "episodes_per_us_adult_year": [
+        2,
+        3
+      ],
+      "typical_duration": "Usually less than one week",
+      "index": null,
+      "reason": "Matched point prevalence and compatible severity weight are not connected",
+      "source_ids": [
+        "cdc-common-cold"
+      ]
+    },
+    "ebola": {
+      "historical_case_fatality_percent": [
+        25,
+        90
+      ],
+      "average_case_fatality_percent": 50,
+      "index": null,
+      "reason": "Outbreak case fatality is not a disability weight or population prevalence; no compatible index can be calculated",
+      "source_ids": [
+        "who-ebola"
+      ]
+    }
+  },
+  "benefit_risk_framework": {
+    "name": "Structured benefit–risk assessment / effects table",
+    "source_ids": [
+      "ema-benefit-risk"
+    ],
+    "principle": "Compare outcomes for matching populations, denominators and periods; include severity, duration and uncertainty. No universal single vaccine net-benefit score is assigned."
+  }
 }

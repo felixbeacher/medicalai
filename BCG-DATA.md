@@ -1,6 +1,6 @@
 # BCG structured dataset — research draft
 
-Version: bcg-evidence-v2 · assembled 27 October 2026 · 11 evidence records · 11 linked sources.
+Version: bcg-evidence-v2 · assembled 27 October 2026 · 14 evidence records · 14 linked sources.
 
 **Not independently clinically reviewed, exhaustive, or complete for personal vaccination decisions.** The JSON separates published estimates, derived relative effects, unavailable clinical outputs, and an explicitly assumption-based research model.
 
@@ -63,3 +63,11 @@ python3 scripts/validate-bcg.py
 ```
 
 The scripts detect either layout. Validation checks source-reference completeness, numerical interval bounds, derived-effect arithmetic, model arithmetic, explicit assumption flags and matching offline data. It does not validate the clinical appropriateness of the model.
+
+## 27 October interface and context update
+
+Added WHO 2024 adult male, adult female and child case-count records with uncertainty intervals, plus linked CDC common-cold, WHO Ebola and EMA benefit–risk references. The AGE and SEX boxes distinguish disease burden from vaccine subgroup effects; they do not apply unsupported age/sex multipliers.
+
+The common-cold and Ebola rows are contextual comparisons only. Their numerical morbidity-index fields remain null because matched prevalence and disability-weight inputs are missing. Ebola case fatality and annual cold episode counts are not compatible substitutes for the index inputs. Relative-reduction examples use explicitly hypothetical rates, not clinical forecasts.
+
+The final balance uses an effects-table approach, including denominator, period, severity, uncertainty and missing inputs. No net benefit, suitability score or recommendation is calculated. Source metadata and the original research-model limitations remain in the JSON and expandable methods. The map is placed first in the regional prevalence box and explicitly labelled as incidence; the separate numeric prevalence remains a global age-standardised 2021 reference.
