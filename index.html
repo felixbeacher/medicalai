@@ -214,7 +214,7 @@ $('profile').addEventListener('submit',e=>{e.preventDefault();apply();});$('vacc
     canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);draw(reduced.matches?0:time);
   }
   function tick(now){frame=0;if(document.hidden||!visible||reduced.matches)return;if(!last)last=now;
-    if(now-last>=1000/30){time+=Math.min((now-last)/1000,.08)*.75;last=now;draw(time)}
+    if(now-last>=1000/30){time+=Math.min((now-last)/1000,.08)*.6;last=now;draw(time)}
     frame=requestAnimationFrame(tick);
   }
   function sync(){if(frame)cancelAnimationFrame(frame);frame=0;last=0;if(reduced.matches){draw(0);return}if(!document.hidden&&visible)frame=requestAnimationFrame(tick)}
