@@ -3,7 +3,7 @@
   "dataset_id": "bcg-evidence-v2",
   "vaccine_id": "bcg",
   "vaccine_name": "BCG (tuberculosis)",
-  "assembled_on": "2026-10-27",
+  "assembled_on": "2026-10-28",
   "review_status": "Source-linked draft; not independently clinically reviewed",
   "coverage": "Selected BCG evidence, with product-specific reaction frequencies, qualitative severity and global mortality context; not exhaustive or personalised.",
   "personalisation": {
@@ -13,7 +13,7 @@
   "sources": [
     {
       "id": "who-tb-2025",
-      "title": "WHO — Global tuberculosis report 2025, section 1.1",
+      "title": "WHO \u2014 Global tuberculosis report 2025, section 1.1",
       "url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2025/tb-disease-burden/1-1-tb-incidence",
       "published": "2025",
       "locator": "Opening paragraph and Table 1.1.1, Global row",
@@ -21,7 +21,7 @@
     },
     {
       "id": "mangtani-2014",
-      "title": "Mangtani et al. — Protection by BCG vaccine against tuberculosis",
+      "title": "Mangtani et al. \u2014 Protection by BCG vaccine against tuberculosis",
       "url": "https://doi.org/10.1093/cid/cit790",
       "published": "2014",
       "locator": "Abstract, Results; infant subgroups",
@@ -31,7 +31,7 @@
     },
     {
       "id": "martinez-2022",
-      "title": "Martinez et al. — Infant BCG vaccination throughout the life course",
+      "title": "Martinez et al. \u2014 Infant BCG vaccination throughout the life course",
       "url": "https://stacks.cdc.gov/view/cdc/131794",
       "published": "2022",
       "locator": "Abstract, Findings; children younger than 5 years",
@@ -41,7 +41,7 @@
     },
     {
       "id": "ajv-smpc",
-      "title": "BCG Vaccine AJV — UK product information",
+      "title": "BCG Vaccine AJV \u2014 UK product information",
       "url": "https://www.medicines.org.uk/emc/product/9890/smpc",
       "published": "2023-10-19",
       "locator": "Sections 4.3, 4.8 and 10",
@@ -50,7 +50,7 @@
     },
     {
       "id": "who-reactions-2012",
-      "title": "WHO — BCG vaccine reaction information sheet",
+      "title": "WHO \u2014 BCG vaccine reaction information sheet",
       "url": "https://cdn.who.int/media/docs/default-source/pvg/global-vaccine-safety/bcg-vaccine-rates-information-sheet.pdf",
       "published": "2012-04",
       "locator": "Page 1, Mild adverse events; page 2, systemic adverse events",
@@ -59,7 +59,7 @@
     },
     {
       "id": "who-bcg-2018",
-      "title": "WHO — BCG vaccines position paper",
+      "title": "WHO \u2014 BCG vaccines position paper",
       "url": "https://www.who.int/publications/i/item/who-wer9308-73-96",
       "published": "2018-02-23",
       "locator": "Position paper and accompanying recommendations",
@@ -67,7 +67,7 @@
     },
     {
       "id": "who-tb-facts",
-      "title": "WHO — Tuberculosis fact sheet",
+      "title": "WHO \u2014 Tuberculosis fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
       "published": null,
       "locator": "Overview, symptoms and prevention",
@@ -75,7 +75,7 @@
     },
     {
       "id": "cdc-bcg",
-      "title": "CDC — Tuberculosis vaccine",
+      "title": "CDC \u2014 Tuberculosis vaccine",
       "url": "https://www.cdc.gov/tb/vaccines/index.html",
       "published": null,
       "locator": "BCG vaccine overview",
@@ -83,7 +83,7 @@
     },
     {
       "id": "jiang-gbd-2026",
-      "title": "Jiang et al. — Global TB burden, 1990–2050 (GBD 2021 analysis)",
+      "title": "Jiang et al. \u2014 Global TB burden, 1990\u20132050 (GBD 2021 analysis)",
       "url": "https://doi.org/10.1097/JS9.0000000000003412",
       "published": "2026-01",
       "locator": "Results: Age-standardized annual rate of four basic indicators; global 2021 prevalence",
@@ -92,7 +92,7 @@
     },
     {
       "id": "who-ghe-methods-2024",
-      "title": "WHO — Global burden of disease methods 2000–2021",
+      "title": "WHO \u2014 Global burden of disease methods 2000\u20132021",
       "url": "https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2021_daly_methods.pdf?sfvrsn=690b16c3_2",
       "published": "2024-05",
       "locator": "Section 2.4 prevalence-based YLDs; Annex Table C, Tuberculosis, not HIV infected",
@@ -101,7 +101,7 @@
     },
     {
       "id": "chiang-2014",
-      "title": "Chiang et al. — Treatment outcomes of childhood tuberculous meningitis",
+      "title": "Chiang et al. \u2014 Treatment outcomes of childhood tuberculous meningitis",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25108337/",
       "published": "2014-10",
       "locator": "Abstract, Findings; 19 studies, 1,636 children",
@@ -111,7 +111,7 @@
     },
     {
       "id": "cdc-common-cold",
-      "title": "CDC — About common cold",
+      "title": "CDC \u2014 About common cold",
       "url": "https://www.cdc.gov/common-cold/about/index.html",
       "published": "2026-02-19",
       "accessed": "2026-10-27",
@@ -119,7 +119,7 @@
     },
     {
       "id": "who-ebola",
-      "title": "WHO — Ebola disease",
+      "title": "WHO \u2014 Ebola disease",
       "url": "https://www.who.int/en/health-topics/ebola/ebola",
       "published": null,
       "accessed": "2026-10-27",
@@ -127,11 +127,11 @@
     },
     {
       "id": "ema-benefit-risk",
-      "title": "EMA — Benefit–risk tools and processes",
+      "title": "EMA \u2014 Benefit\u2013risk tools and processes",
       "url": "https://www.ema.europa.eu/en/documents/report/benefit-risk-methodology-project-work-package-4-report-benefit-risk-tools-and-processes_en.pdf",
       "published": "2012",
       "accessed": "2026-10-27",
-      "locator": "Sections 2.1–2.2: PrOACT-URL framework and Effects Table."
+      "locator": "Sections 2.1\u20132.2: PrOACT-URL framework and Effects Table."
     },
     {
       "id": "who-mortality-2025",
@@ -142,6 +142,15 @@
       "accessed": "2026-10-27",
       "access_status": "web_source_checked",
       "independent_clinical_review": false
+    },
+    {
+      "id": "gbd-tb-2023",
+      "title": "GBD 2023 TB HIV Collaborators \u2014 Global TB burden, 1990\u20132023",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1473309926002951",
+      "published": "2026",
+      "accessed": "2026-10-28",
+      "locator": "Abstract, Findings: global all-form TB DALYs, including HIV-related TB, 2023",
+      "design": "Global Burden of Disease modelling study"
     }
   ],
   "estimates": [
@@ -167,7 +176,7 @@
       "region": "Global",
       "comparator": null,
       "design": "WHO modelled burden estimate",
-      "limitations": "Not prevalence, an unvaccinated baseline or an individual probability; not mapped to this website’s geographic groups."
+      "limitations": "Not prevalence, an unvaccinated baseline or an individual probability; not mapped to this website\u2019s geographic groups."
     },
     {
       "id": "infant-pulmonary-rr",
@@ -197,7 +206,7 @@
         "value": 59,
         "low": 42,
         "high": 71,
-        "formula": "100 × (1 − rate ratio); CI bounds reversed"
+        "formula": "100 \u00d7 (1 \u2212 rate ratio); CI bounds reversed"
       },
       "limitations": "Infant subgroup; protection differs by setting, age and prior mycobacterial sensitisation. Cannot be combined with global all-age incidence to calculate personal absolute benefit."
     },
@@ -229,7 +238,7 @@
         "value": 90,
         "low": 23,
         "high": 99,
-        "formula": "100 × (1 − rate ratio); CI bounds reversed"
+        "formula": "100 \u00d7 (1 \u2212 rate ratio); CI bounds reversed"
       },
       "limitations": "Wide confidence interval for severe disease; not an absolute number of cases prevented."
     },
@@ -468,7 +477,7 @@
         "type": "source_reported_uncertainty_interval"
       },
       "measure": "estimated_number_new_and_recurrent_tb_cases",
-      "population": "Children aged 0–14 years, worldwide",
+      "population": "Children aged 0\u201314 years, worldwide",
       "outcome": "New or recurrent TB disease episodes",
       "time_period": "2024",
       "design": "WHO modelled global burden estimates",
@@ -996,6 +1005,70 @@
       "study_id": "who-mortality-2025",
       "product": "BCG strains pooled / unspecified",
       "missing_reason": null
+    },
+    {
+      "extraction_status": "checked_against_linked_source",
+      "independent_clinical_review": false,
+      "region": "Global",
+      "comparator": null,
+      "id": "global-tb-cases-2024",
+      "domain": "disease_occurrence",
+      "outcome": "New or recurrent active TB disease episodes",
+      "population": "Global population, all ages, including people with HIV",
+      "measure": "incident_case_count",
+      "value": 10700000,
+      "interval": {
+        "low": 9920000,
+        "high": 11500000,
+        "type": "source_reported_uncertainty_interval"
+      },
+      "time_period": "Calendar year 2024",
+      "source_ids": [
+        "who-tb-2025"
+      ],
+      "design": "WHO modelled burden estimate",
+      "limitations": "Disease episodes, not all infections or latent TB; not a personal risk."
+    },
+    {
+      "extraction_status": "checked_against_linked_source",
+      "independent_clinical_review": false,
+      "region": "Global",
+      "comparator": null,
+      "id": "global-tb-case-fatality-2024",
+      "domain": "disease_severity",
+      "outcome": "WHO estimated case fatality rate for active TB disease",
+      "population": "Global people developing active TB disease, all ages, including people with HIV",
+      "measure": "case_fatality_percent",
+      "value": 11.5,
+      "time_period": "Calendar year 2024",
+      "source_ids": [
+        "who-mortality-2025"
+      ],
+      "design": "WHO modelled deaths-to-incidence ratio",
+      "limitations": "Annual population burden ratio, not a followed cohort; not deaths per latent infection or a personal prognosis. Treatment access and disease severity vary. No uncertainty interval extracted."
+    },
+    {
+      "extraction_status": "checked_against_linked_source",
+      "independent_clinical_review": false,
+      "region": "Global",
+      "comparator": null,
+      "id": "global-tb-dalys-2023",
+      "domain": "disease_burden",
+      "outcome": "Disability-adjusted life years lost to all-form TB",
+      "population": "Global population, all ages and sexes, including HIV-related TB",
+      "measure": "daly_count",
+      "value": 54600000,
+      "interval": {
+        "low": 43800000,
+        "high": 65500000,
+        "type": "95_percent_uncertainty_interval"
+      },
+      "time_period": "Calendar year 2023",
+      "source_ids": [
+        "gbd-tb-2023"
+      ],
+      "design": "GBD 2023 modelled burden estimate",
+      "limitations": "Healthy years lost from premature death plus disability, not a count of disabled people. Different model and year from WHO 2024 figures; do not combine them into a single calculation."
     }
   ],
   "missing_data": {
@@ -1021,7 +1094,7 @@
     "year": 2024,
     "image_url": "https://cdn.who.int/media/images/default-source/products/global-reports/tb-report/2025/fig_1-1-4-1.tmb-1920v.png?sfvrsn=d129cc8d_3",
     "alt": "World map of estimated TB incidence by country in 2024, in annual new and recurrent cases per 100,000 people. Lower incidence is shown in green, higher incidence in red, and missing data in grey. Original WHO numerical legend categories are retained.",
-    "limitations": "Country-level annual incidence, not prevalence, an individual prediction, or the website’s custom regional averages. Map boundaries and categories are those of the original WHO figure.",
+    "limitations": "Country-level annual incidence, not prevalence, an individual prediction, or the website\u2019s custom regional averages. Map boundaries and categories are those of the original WHO figure.",
     "display_palette": "Frontend colour adaptation: green = lower incidence, red = higher incidence; neutral text, boundaries and missing-data grey retained. Underlying source image, country values and numerical categories unchanged."
   },
   "research_model": {
@@ -1081,7 +1154,7 @@
     }
   },
   "benefit_risk_framework": {
-    "name": "Structured benefit–risk assessment / effects table",
+    "name": "Structured benefit\u2013risk assessment / effects table",
     "source_ids": [
       "ema-benefit-risk"
     ],
