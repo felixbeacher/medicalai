@@ -1,6 +1,6 @@
 # BCG structured dataset — research draft
 
-Version: bcg-evidence-v2 · assembled 27 October 2026 · 30 evidence records · 15 linked sources.
+Version: bcg-evidence-v2 · assembled 28 October 2026 · 33 evidence records · 16 linked sources.
 
 **Not independently clinically reviewed, exhaustive, or complete for personal vaccination decisions.** The JSON separates published estimates, derived relative effects, unavailable clinical outputs, and an explicitly assumption-based research model.
 
@@ -8,6 +8,9 @@ Version: bcg-evidence-v2 · assembled 27 October 2026 · 30 evidence records · 
 
 | Input | Value | Scope |
 |---|---|---|
+| TB deaths | 1.23 million | WHO global 2024 total, including 150,000 among people with HIV |
+| Case fatality | 11.5% | WHO global 2024 deaths-to-incidence ratio; active disease, not latent infections or a followed cohort |
+| Healthy years lost | 54.6 million DALYs (95% UI 43.8–65.5 million) | GBD 2023 all-form TB, including HIV-related TB; premature death plus disability, not disabled people; different model/year from WHO figures |
 | Prevalence | 236.14 per 100,000 (95% UI 214.51–260.20) | Global 2021 age-standardised modelled TB prevalence, Jiang et al. |
 | Disability weight | 0.333 on a 0–1 scale | WHO reference for the symptomatic TB health state without HIV infection; not mortality risk |
 | Death during treatment | 19.3% (95% CI 14.0–26.1) | Historical childhood TB-meningitis cohorts; not all TB |
